@@ -11,8 +11,16 @@ const listaSpesa = ['Pane', 'Latte', 'Farina', 'Uova', 'Sale', 'Zucchero', 'Frut
 let listItems = '<ul>';
 
 //! Versione con il for
-for (let i = 0; i < listaSpesa.length; i++) {
+/* for (let i = 0; i < listaSpesa.length; i++) {
     listItems += `<li>${listaSpesa[i]}</li>`
+}; */
+
+//! Versione con il while
+let i = 0;
+
+while (i < listaSpesa.length) {
+    listItems += `<li>${listaSpesa[i]}</li>`
+    i++;
 };
 
 
