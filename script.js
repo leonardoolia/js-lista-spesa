@@ -4,3 +4,6 @@ gli elementi della lista individualmente con un ciclo while. */
 //? 1. Recuperare l'elemento dall'html
 const targetElement = document.getElementById('lista-spesa');
 
+//? 2. Creare array con elementi all'interno
+const listaSpesa = ['Pane', 'Latte', 'Farina', 'Uova', 'Sale', 'Zucchero', 'Frutta', 'Verdura', 'Patate'];
+
